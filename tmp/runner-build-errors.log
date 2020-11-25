@@ -1,0 +1,2 @@
+# gobanks/handler/userhandler
+handler\userhandler\userhandler.go:86:3: cannot use accountNumber (type uuid.UUID) as type string in field value

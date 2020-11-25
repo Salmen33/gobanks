@@ -1,0 +1,23 @@
+{{> "partials/navigation"}}
+<div class="container">
+    {{#if transactions}}
+    <table class="table">
+        <thead>
+            <th>Time Processed</th>
+            <th>Total</th>
+            <th>To</th>
+        </thead>
+        <tbody>
+            {{#each transactions}}
+            <tr>
+                <td>{{this.CreatedAt}}</td>
+                <td>{{this.Amount}}</td>
+                <td>{{this.Receiver}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    {{else}}
+    <h1>No transactions history</h1>
+    {{/if}}
+</div>

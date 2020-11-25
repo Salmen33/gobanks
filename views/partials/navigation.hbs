@@ -1,0 +1,22 @@
+<header>
+  <nav class="flex flex-ai-c flex-between">
+    <div class="flex flex-ai-c flex-between">
+      <a href="/" class="brand-link">Go-Banks</a>
+    </div>
+    <div class="nav-link">
+      {{#if email}}
+      <div class="flex flex-ai-c">
+        <form action="/logout" method="post">
+          <button class="nav-item btn btn-link" id="navForm" type="submit">Logout</button>
+        </form>
+        <h3 class="hi-user">hello, {{email}}</h3>
+      </div>
+      {{else}}
+      <a href="/api/auth/login" class="nav-item">Login</a>
+      <a href="/api/auth/new" class="nav-item">Register</a>
+      {{/if}}
+    </div>
+
+
+  </nav>
+</header>

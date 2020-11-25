@@ -1,0 +1,59 @@
+#navForm {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.hi-user {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: 550;
+  margin-left: .5rem;
+}
+
+.card {
+  margin: .6rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  -webkit-transition: background 350ms ease-in;
+  transition: background 350ms ease-in;
+}
+
+.card img {
+  width: 250px;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgba(10, 10, 10, 0.8);
+}
+
+.card:hover {
+  background-color: rgba(249, 249, 249, 0.5);
+  -webkit-transition: background 350ms ease-out;
+  transition: background 350ms ease-out;
+}
+
+.table {
+  padding: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding: .2rem 1rem;
+}
+
+.table th {
+  font-size: 20px;
+  background-color: rgba(240, 10, 10, 0.8);
+  color: rgba(249, 249, 249, 0.9);
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(240, 240, 240, 0.7);
+}
+/*# sourceMappingURL=myapp.css.map */

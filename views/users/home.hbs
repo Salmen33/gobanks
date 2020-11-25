@@ -1,0 +1,85 @@
+{{> 'partials/navigation' }}
+<main>
+  {{#if email}}
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div class="card">
+          <a class="service-link" href="#">
+            <h3>E-Money</h3>
+          </a>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card">
+          <a class="service-link" href="/api/user/new">
+            <h3>Transfer</h3>
+          </a>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card">
+          <a class="service-link" href="/api/user/deposite">
+            <h3>Deposite</h3>
+          </a>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card">
+          <a class="service-link" href="/api/user/transfer/history">
+            <h3>History</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{else}}
+  <div class="container">
+    <div class="main-title">
+      <h1><span class="front-letter">GO</span>banks Present</h1>
+    </div>
+
+    <div class="container-page">
+      <div class="jumbutron">
+        <p class="main-title page-title">Benefit Of Using GObanks</p>
+
+
+        <div class="body-desctription flex flex-around">
+          <div class="card">
+            <h4>Saving up to $1 million</h4>
+            <img src="static/image/piggybanks1.png" alt="GObanks banks">
+          </div>
+          <div class="card">
+            <h4>Opening account only 10 minutes</h4>
+            <img src="static/image/time.png" alt="GObanks banks">
+          </div>
+          <div class="card">
+            <h4>Easy exchange to foreign currency</h4>
+            <img src="static/image/exchangemoneY.png" alt="GObanks banks">
+          </div>
+        </div>
+      </div>
+      <div class="jumbutron">
+        <div class="body-desctription flex flex-around">
+          <div class="card">
+            <h4>Free transfer to another banks</h4>
+            <img src="static/image/banktransfer.png" alt="GObanks banks">
+          </div>
+          <div class="card">
+            <h4>Easy to pay bill</h4>
+            <img src="static/image/pay.png" alt="GObanks banks">
+          </div>
+          <div class="card">
+            <h4>No monthly administrasion</h4>
+            <img src="static/image/noMoney.png" alt="GObanks banks">
+          </div>
+        </div>
+        <section class="offer flex flex-y-c flex-between">
+          <div class="body-offer">
+            <h2>Hello World</h2>
+          </div>
+        </section>
+      </div>
+    </div>
+    {{/if}}
+</main>

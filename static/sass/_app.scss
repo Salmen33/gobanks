@@ -1,0 +1,59 @@
+#navForm {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.hi-user {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 550;
+    margin-left: .5rem;
+}
+
+.card {
+    margin: .6rem 0;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(249, 249, 249, 1);
+    transition: background 350ms ease-in;
+
+    img {
+        width: 250px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(10, 10, 10, .8)
+    }
+
+    &:hover {
+        background-color: rgba(249, 249, 249, .5);
+        transition: background 350ms ease-out;
+    }
+}
+
+
+
+.table {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+
+    th,
+    td {
+        padding: .2rem 1rem;
+    }
+
+    th {
+        font-size: 20px;
+        background-color: rgba(240, 10, 10, .8);
+        color: rgba(249, 249, 249, .9);
+    }
+
+    tr:nth-child(even) {
+        background-color: rgba(240, 240, 240, .7);
+    }
+}

@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.flex-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container {
+  width: 75%;
+  margin: 3rem auto;
+}
+
+.btn {
+  font-family: sans-serif;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  padding: .6rem 1.3rem;
+  -webkit-transition: background 200ms ease-in;
+  transition: background 200ms ease-in;
+  cursor: pointer;
+}
+
+.btn-link {
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-danger {
+  background-color: #e91414;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.btn-danger:hover {
+  background-color: #aa1414;
+  -webkit-transition: all 20ms ease-out;
+  transition: all 20ms ease-out;
+}
+
+.btn-success {
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #0ad20a;
+}
+
+.btn-success:hover {
+  background-color: #0a960a;
+  -webkit-transition: all 20ms ease-out;
+  transition: all 20ms ease-out;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.card {
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  background-color: #1e2964;
+  padding: 1rem 2rem;
+}
+
+.brand-link {
+  padding: .8rem;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.nav-link a {
+  color: #6c6d74;
+  text-decoration: none !important;
+  margin-right: 3rem;
+  font-size: 28px;
+  -webkit-transition: color 500ms ease-in;
+  transition: color 500ms ease-in;
+}
+
+.nav-link a:hover {
+  border-bottom: 3px solid wheat;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: color 500ms ease-out;
+  transition: color 500ms ease-out;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 19px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+/*# sourceMappingURL=app.css.map */
